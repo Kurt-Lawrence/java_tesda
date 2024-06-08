@@ -42,5 +42,5 @@ public class oddOrEven{
         
 
 
-    }
-}
+    }//main end
+}//class end
