@@ -27,10 +27,8 @@ public class oddOrEven{
 
         if(x >= 0){
             sign = "positive";
-        }else if(x < 0){
-            sign = "negative";
         }else{
-            sign = "positive";
+            sign = "negative";
         }
 
         if(zero == "zero"){
