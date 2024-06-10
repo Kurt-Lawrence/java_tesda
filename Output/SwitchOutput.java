@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
-public class Main{
+public class SwitchOutput{
 	public static void main(String[] args){
 
 		Scanner in = new Scanner(System.in);
         
         System.out.println("Enter month number: ");
         int month = in.nextInt();
+
+        in.close();
         
         switch(month){
             case 2:System.out.println("February 28 days");break;

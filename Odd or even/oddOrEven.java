@@ -9,6 +9,8 @@ public class oddOrEven{
         System.out.println("Enter a number: ");
         int x = in.nextInt();
 
+        in.close();
+
         String sign;
         String odd_or_even;
         String zero;
