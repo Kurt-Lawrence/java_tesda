@@ -4,20 +4,28 @@ import java.util.*;
 public class LargerstNumber {
     
     public static void main(String[] args) {
-        
+
         Scanner in = new Scanner(System.in);
 
         ArrayList<Integer> nums = new ArrayList<>();
 
-        nums.add(in.nextInt());
-        nums.add(in.nextInt());
-        nums.add(in.nextInt());
+        System.out.println("Enter 3 numbers:");
 
-        int max = Collections.max(nums);
+        try {
+            for (int i = 0; i < 3; i++) {
+                nums.add(in.nextInt());
+            }
 
-        in.close();
+            int max = Collections.max(nums);
+            System.out.println("Maximum number entered: " + max);
 
-        System.out.println(max);
-        
+        } catch (InputMismatchException e) {
+            System.out.println("Error: Please enter integers only.");
+
+
+        } finally {
+            
+                in.close();       
+        }
     }
 }
