@@ -21,17 +21,14 @@ public class Main {
                             49.99);
         
         System.out.println("\nBook 1");
-        showDetails(b1);
+        Book.showDetails(b1);
 
         System.out.println("\nBook 2");
-        showDetails(b2);
+        Book.showDetails(b2);
 
         System.out.println("\nBook 3");
-        showDetails(b3);
+        Book.showDetails(b3);
         
     }
-
-    
-
-    
+ 
 }
