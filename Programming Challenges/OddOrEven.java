@@ -1,7 +1,7 @@
+
 import java.util.Scanner;
 
-public class OddOrEven{
-
+public class OddOrEven {
     public static void main(String[] args) {
         
         Scanner in = new Scanner(System.in);
@@ -42,5 +42,5 @@ public class OddOrEven{
         
 
 
-    }//main end
-}//class end
+    }
+}
