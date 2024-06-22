@@ -7,9 +7,8 @@ public class CumulativeSum{
     }
 
     static int cumulativeSum(int... nums){
-
-        //variable for sum
-        int sumOfAll = 0;
+        
+        int sumOfAll = 0;   //variable for sum
 
         
         for(int num:nums){  //loop through the list of numbers
