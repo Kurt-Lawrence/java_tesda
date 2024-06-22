@@ -2,15 +2,23 @@
 public class CumulativeSum{
     public static void main(String[] args) {
 
-        cumulativeSum(5,2);
+        System.out.println("Cumulative Sum: " + cumulativeSum(5,2));
         
     }
 
-    static void cumulativeSum(int... nums){
+    static int cumulativeSum(int... nums){
 
-        for(int num:nums){
-            System.out.println(num);
+        //variable for sum
+        int sumOfAll = 0;
+
+        
+        for(int num:nums){  //loop through the list of numbers
+            for(int x = num ; x > 0; x--){  //loop to descent through the number ex. 4,3,2,1
+                sumOfAll += x;
+            }
+            System.out.println();
         }
 
+        return sumOfAll;
     }
 }
