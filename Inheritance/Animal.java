@@ -46,3 +46,10 @@ class Lion extends Animal{
     int numClaws = 8;
 
 }
+
+abstract class Sample{
+    void run(){}
+
+    abstract int getMiles();
+
+}
