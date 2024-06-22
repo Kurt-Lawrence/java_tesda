@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 public class Main {
     
@@ -23,12 +22,6 @@ public class Main {
 
 
         System.out.println(greet.equals(greet2));
-        
-
-
-    
-
-        
 
 
     }
